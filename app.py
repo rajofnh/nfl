@@ -5,11 +5,18 @@ import pandas as pd
 # --- 1. SETTING THE UI STYLE ---
 st.set_page_config(page_title="NFL AI Predictor & Auditor", layout="wide")
 
-# Custom CSS for a professional look
+# FIX: Lines 13-25 handle the visual colors for boxes and text
 st.markdown("""
     <style>
+    /* Metric Box Styling */
+    [data-testid="stMetricValue"] {
+        color: #ffffff !important; /* Forces white text for the percentage */
+    }
+    [data-testid="stMetricLabel"] {
+        color: #e0e0e0 !important; /* Forces light gray for the labels */
+    }
     .stMetric {
-        background-color: #1e2130;
+        background-color: #262730; /* Darker box background */
         padding: 15px;
         border-radius: 10px;
         border: 1px solid #4e5d6c;
