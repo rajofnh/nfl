@@ -93,5 +93,5 @@ if st.button("Run AI Prediction"):
     else:
         st.error("🚩 RED FLAG: AI is referencing a team not in the database.")
 
-# To use this, add it to the bottom of the main script:
-audit_agent(None, team_a, nfl_data)
+    # To use this, add it to the bottom of the main script:
+    audit_agent(None, team_a, nfl_data)
