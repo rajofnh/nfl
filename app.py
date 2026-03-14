@@ -75,9 +75,9 @@ if st.button("Run AI Prediction"):
 
     # Auditor Agent code is below for hallucination checker
     def audit_agent(prediction_output, team_name, ground_truth):
-    """
-    Checks if the predicted stats match the ground truth reference data.
-    """
+        """
+        Checks if the predicted stats match the ground truth reference data.
+        """
     st.markdown("---")
     st.subheader("🕵️ AI Audit Agent")
     
